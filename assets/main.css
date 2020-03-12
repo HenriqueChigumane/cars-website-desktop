@@ -46,6 +46,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.226)),url(../1.
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+background-attachment: fixed;
 }
 .menu{
  margin-top: -5px;}
@@ -159,7 +160,6 @@ nav ul li a:hover,a:active{
 }
 .main-skill{
     display: inline-block;
-    text-align: justify;
     width:26%;
     color: rgba(37, 48, 60, 0.753);
 
@@ -168,14 +168,22 @@ nav ul li a:hover,a:active{
     font-size: 80pt;
     display: inline-block;
     margin-bottom: 12px;
-    color: #25303c
-   /* color:rgb(230, 121, 109);*/
+    color: #25303c;
+    transition: all 0.3s ease;
+   /* color:rgb(230, 121, 109);*/;
+   
     
+}
+.main-skill i:hover {
+transform: scale(1.1);
+color:#2c455f
+
 }
 .prop{
     text-align: center;
     
 }
+
 .prop-desc{
     text-align: center;
     font-family: Lemon Milk;
@@ -184,7 +192,9 @@ nav ul li a:hover,a:active{
     margin-bottom: 15px;
     font-size: 8pt;
 }
+
 .goals{
+    margin-top: 60px;
     margin-top: 60px;
 }
 .main-skill:not(:last-child){
