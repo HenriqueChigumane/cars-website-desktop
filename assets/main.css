@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'Lemon Milk';
+    src: url(../fonts/LemonMilk.otf);
+  }
+
+  @font-face{
+    font-family: 'Lemon Milk Bold';
+    src: url(../fonts/LemonMilkbold.otf);
+  }
+*{
+    padding: 0;
+    margin: 0;
+    /*font-family: sans-serif;*/
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.226)),url(../1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.menu{
+ margin-top: -5px;}
+nav{
+    background-color: aquamarine;
+    padding: 10px;
+    background:#fff;}
+nav ul{
+   position: relative;
+   text-align: right; 
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px 15px ;
+}
+nav ul li a{
+    color:#000;
+    font-family: Source Sans Pro;
+    font-weight:500;
+    font-size: 12pt;
+    transition: 0.5s ease ;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+}
+nav ul li a:hover,a:active{
+    border-bottom: 1.5pt solid salmon;
+    color: salmon;
+    padding-bottom: 23px;
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    position: relative;
+    width: 150px;
+    filter:saturate(0);
+    top:18px;
+    left: 50px;
+    transition: 0.3s ease;
+}
+.center{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family: Lemon Milk Bold;   
+    text-transform: uppercase;
+    outline: 4pt solid rgb(255, 255, 255);padding-left: 25px;
+}
+.center--main {
+    font-size: 72pt;
+    font-weight: 400;
+    letter-spacing: 1.5pt;
+}
+.center--sub{
+    font-family: Lemon Milk;
+    font-size: 16pt;
+    margin-top: -15px;
+    padding-left: 15px;;
+    letter-spacing: 28pt;
+    font-weight: 100;
+    margin-bottom: 20px;
+    
+}
