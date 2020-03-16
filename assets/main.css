@@ -21,6 +21,7 @@
     margin: 0;
     /*font-family: sans-serif;*/
     box-sizing: border-box;
+    
 }
 h2{
   font-family: Lemon Milk Bold; 
@@ -49,17 +50,20 @@ h2::after{
 }
 
 header{
-width: 100%;
-height: 100vh;
-background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.226)),url(../1.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+    width: 100%;  
+}
+.bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.226)),url(../1.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .menu{
  margin-top: -5px;}
 nav{
+    box-shadow: 1px 2px 55pt rgba(0, 0, 0, 0.258);
     background-color: aquamarine;
     padding: 10px;
     background:#fff;}
@@ -131,8 +135,51 @@ nav ul li a:hover,a:active{
     margin: 0 auto;
     padding: 60px 50px;
     margin-bottom: 50px;
+    overflow: hidden;
     
 }
+/* section 2*/
+.container-2{
+    width: 100vw;
+    height: 65vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../3.png');
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 50px auto 70px auto;
+    
+}
+.titles-2{
+    color: rgb(255, 255, 255);
+}
+.cont-3{
+    font-size:42pt ;
+    font-family: 'Lemon Milk Bold';
+    font-weight: 400;
+    letter-spacing: 1.5pt;
+    margin-left: 65px;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 18pt;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-left: 320px;
+    border: 2pt solid rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 500px;
+    color: white;
+}
+.button:hover, .button:active{
+    background: white;
+    color: black;
+    
+}
+/*end*/
 .flex{
     display: flex;
 }
@@ -213,6 +260,7 @@ color:#2c455f
     margin-left: 20px;
 }
 
+
 /*Anderson*/
 .logo-index{
     width: 350px;
@@ -236,6 +284,20 @@ color:#2c455f
 }
 .move-logo:hover{
     outline-offset: 30px;
+}
+.title-5{
+    height:180px;
+    background: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.426)),url(../1.png);
+    background-position: center;
+    font-family: 'Lemon Milk bold';
+    font-weight: 400;
+    letter-spacing:2pt ;
+    font-size: 22pt;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 /*Automoveis*/
