@@ -7,6 +7,15 @@
     font-family: 'Lemon Milk Bold';
     src: url(../fonts/LemonMilkbold.otf);
   }
+
+   @font-face{
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Regular.otf);
+  }
+   @font-face{
+    font-family: 'Source Sans light';
+    src: url(../fonts/SourceSansPro-Regular.otf);
+  }
 *{
     padding: 0;
     margin: 0;
@@ -203,3 +212,30 @@ color:#2c455f
 .main-skill:first-child{
     margin-left: 20px;
 }
+
+/*Anderson*/
+.logo-index{
+    width: 350px;
+}
+.table-image{
+    width: 125px;
+}
+.move-logo{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.move-logo{
+    outline: 4pt solid #cb3725;
+    outline-offset: 40px;
+    transition: all 0.2s ease;
+}
+.move-logo:active{
+    outline-offset: 10px;
+}
+.move-logo:hover{
+    outline-offset: 30px;
+}
+
+/*Automoveis*/
