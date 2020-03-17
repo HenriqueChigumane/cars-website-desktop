@@ -13,8 +13,16 @@
     src: url(../fonts/SourceSansPro-Regular.otf);
   }
    @font-face{
-    font-family: 'Source Sans light';
-    src: url(../fonts/SourceSansPro-Regular.otf);
+    font-family: 'Source Sans Pro Bold';
+    src: url(../fonts/SourceSansPro-Black.otf);
+  }
+  @font-face{
+    font-family: 'Source Sans Pro Medium';
+    src: url(../fonts/SourceSansPro-Semibold.otf);
+  }
+  @font-face{
+    font-family: 'Source Sans Pro Light';
+    src: url(../fonts/SourceSansPro-Light.otf);
   }
 *{
     padding: 0;
@@ -22,6 +30,9 @@
     /*font-family: sans-serif;*/
     box-sizing: border-box;
     
+}
+a{
+    text-decoration: none;
 }
 h2{
   font-family: Lemon Milk Bold; 
@@ -81,10 +92,10 @@ nav ul li{
 }
 nav ul li a{
     color:#000;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro Medium;
     font-weight:500;
     font-size: 12pt;
-    transition: 0.5s ease ;
+    transition: 0.3s ease ;
     text-transform: uppercase;
     letter-spacing: 1.5pt;
 }
@@ -266,7 +277,7 @@ color:#2c455f
     width: 350px;
 }
 .table-image{
-    width: 125px;
+    width: 165px;
 }
 .move-logo{
     position:absolute;
@@ -287,8 +298,9 @@ color:#2c455f
 }
 .title-5{
     height:180px;
-    background: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.426)),url(../1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.426)),url(../4.png);
     background-position: center;
+    background-attachment: scroll;
     font-family: 'Lemon Milk bold';
     font-weight: 400;
     letter-spacing:2pt ;
@@ -298,6 +310,69 @@ color:#2c455f
     align-items: center;
     justify-content: center;
 
+}
+.cont-4{
+    display: flex;
+    justify-content: center;
+}
+.cont-4 table{
+    width: 90%;
+}
+tr .a{
+    width: 5%;
+}
+tr td{
+    padding: 20px 10px;
+}
+tr td:first-child{
+    background: rgba(168, 168, 168, 0.034);
+    text-align: center;
+    
+}
+tr td:first-child{
+    font-size:14pt;
+    font-family:'Lemon Milk Bold';
+    
+}
+tr:first-child{
+   background: rgba(194, 194, 194, 0.096);
+}
+tr{
+    font-family: Source Sans Pro;
+    color: #000
+}
+tr th{
+    font-size: 16pt;
+    padding: 25px;
+
+}
+tr .b{
+    width: 40%;
+    text-align: center;
+
+}
+.cont-4 tr td {
+    text-align: center;
+}
+.desc h5,p {
+    text-align: left;
+}
+.desc h5{
+    font-size: 14pt;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro Medium'
+
+}
+.desc p{
+    font-family: 'Source Sans Pro Light';
+    color: rgb(131, 131, 131)
+}
+.cont-4 tr td img{
+    border-radius: 50%;
+
+}
+.desc h5:hover{
+    color:salmon;
 }
 
 /*Automoveis*/
