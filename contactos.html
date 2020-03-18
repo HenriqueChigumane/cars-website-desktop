@@ -12,21 +12,75 @@
         <div class="menu">
             <nav>
                 <div class="logo">
-                   <a> <img src="logo.png" alt="logotipo"></a> 
+                   <a href="Principal.html"> <img src="logo.png" alt="logotipo"></a> 
                 </div>
                 <ul>
-                    <li><a href="Principal.html">Principal</a></li>
-                    <li><a href="Estrutura.html">Estrutura</a></li>
-                    <li><a href="atomoveis.html">Automoveis</a></li>
-                    <li><a href="contactos.html">Conctactos</a></li>
-                </ul>
+						<li><a href="Principal.html">Principal</a></li>
+						<li><a href="Estrutura.html">Estrutura</a></li>
+						<li><a href="automoveis.html">Automoveis</a></li>
+						<li><a href="contactos.html">Conctactos</a></li>
+					</ul>
             </nav>
 		</div>
 		<div class="title-5">
-			<h1>Estrutura</h1>
+			<h1>Contactos</h1>
 		</div>
 
-    </header>
+	</header>
+	<div class="container cont-4">
+        <div class="form">
+<form action="" method="GET">
+                <div class="name">
+                        <label for="name">Nome</label> <input type="text">
+                </div>
+                <div class="endereco">
+                        <label for="endereço">Endereço</label> <input type="text">
+                </div>
+               <div class="prof">
+                    <label for="profissao">Profissão</label> 
+                    <select name="profissao" id="">
+                        <option value="Motorista">Motorista</option>
+                        <option value="Mecânico">Mecânico</option>
+                        <option value="Contabilista">Contabilista</option>
+                    </select>
+               </div>
+                
+               <div class="email">
+                 <label for="email">Email:</label>
+                 <input type="email" name="email" > 
+               </div>
+               <label for="msg" class="move-label">Motivo</label>
+                <div class="motivo">
+            
+                        <div>
+                            <input type="checkbox" name="encomenda" id="encomenda"> <label for="encomenda">encomenda</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="informações" id="informações"> <label for="informações">informações</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="sugestões" id="sugestões"> <label for="sugestões">sugestões</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="críticas" id="críticas"> <label for="críticas">críticas</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="test-drive" id="test-drive"> <label for="test-drive">test-drive</label>
+                        </div>
+                </div> 
+                <div class="text-area">
+                    <label for="msg" >Mensagem</label>
+                    <textarea cols="43" rows="8"></textarea>
+                </div> 
+                <div class="submit">
+                    <input class="btn" type="button" value="submit">
+                </div>
+            </form>
 
+        </div>
+			
+	</div>
+
+	
 </body>
 </html>

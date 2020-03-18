@@ -142,7 +142,7 @@ nav ul li a:hover,a:active{
 }
 .container{
     width: 1200px;
-    background-color: rgba(230, 230, 230, 0.103);
+    background-color: rgba(236, 236, 236, 0.295);
     margin: 0 auto;
     padding: 60px 50px;
     margin-bottom: 50px;
@@ -271,8 +271,7 @@ color:#2c455f
     margin-left: 20px;
 }
 
-
-/*Anderson*/
+/*Automoveis*/ 
 .logo-index{
     width: 350px;
 }
@@ -325,7 +324,7 @@ tr td{
     padding: 20px 10px;
 }
 tr td:first-child{
-    background: rgba(168, 168, 168, 0.034);
+    background: rgba(131, 131, 131, 0.123);
     text-align: center;
     
 }
@@ -335,7 +334,7 @@ tr td:first-child{
     
 }
 tr:first-child{
-   background: rgba(194, 194, 194, 0.096);
+   background: rgba(194, 194, 194, 0.356);
 }
 tr{
     font-family: Source Sans Pro;
@@ -374,5 +373,87 @@ tr .b{
 .desc h5:hover{
     color:salmon;
 }
+/*Contactos*/
+form > div{
+    display: block;
+    padding: 15px;
+}
+form label{
+    font-family: Source Sans Pro;
+    font-size: 14pt;
+    display: inline-block;
+    width: 100px;
+    text-transform: capitalize;
+}
+input[type=text], input[type=email] ,select{
+    border: 2px solid rgba(99, 99, 99, 0.212);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    font-family: Source Sans Pro;
+    font-size: 16pt;
+    padding: 10px;
+   
+}
+input:focus, select:focus,textarea:focus{
+    outline: none;
+    outline: 2px solid rgba(250, 128, 114, 0.411); 
+    
+}
+input[type=checkbox],select{
+    font-family: Source Sans Pro;
+    font-size: 12pt;
+    
+   
+}
+.move-label{
+    margin-left: 15px;
+}
+.motivo{
+    display: block;
+    transform: translateX(25%);
+}
+.text-area > label{
+    display: block;
+}
+input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+textarea{
+    margin-top: 15px;
+    font-family: Source Sans Pro;
+    font-size: 14pt;
+    padding: 10px 30px;
+    color: grey;   
+    border-radius: 20px;
+    background: transparent;
+    
+}
+.submit{
+    text-align: center;
+    
+}
+.btn{
+    font-size: 14pt;
+    padding: 10px 30px ;
+    text-transform: capitalize;
+    font-family: Source Sans Pro;
+    background: #102f4c;
+    color: white;
+    border-radius: 500px;
+    border: 3px solid #102f4c;
+    transition: all 0.2s ease ;
+}
+.btn:hover,.btn:active{
+    background: transparent;
+    color: #102f4c;
+}
+.form{
+    border: 2px solid rgba(179, 179, 179, 0.267);
+    border-radius: 10px;
+    padding: 40px;
+}
 
-/*Automoveis*/
