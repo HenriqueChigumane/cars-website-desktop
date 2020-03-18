@@ -33,6 +33,7 @@
 }
 a{
     text-decoration: none;
+    color: #25303c;
 }
 h2{
   font-family: Lemon Milk Bold; 
@@ -64,7 +65,7 @@ header{
     width: 100%;  
 }
 .bg{
-    background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.226)),url(../1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.226)),url(../images/1.png);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +154,7 @@ nav ul li a:hover,a:active{
 .container-2{
     width: 100vw;
     height: 65vh;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../3.png');
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/3.png');
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -276,7 +277,14 @@ color:#2c455f
     width: 350px;
 }
 .table-image{
-    width: 165px;
+    width: 170px;
+    padding: 8px;
+    transition: all 0.2s ease;
+    
+}
+.table-image:hover{
+    border:2pt solid salmon;
+    padding: 5px;
 }
 .move-logo{
     position:absolute;
@@ -297,9 +305,23 @@ color:#2c455f
 }
 .title-5{
     height:180px;
-    background: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.426)),url(../4.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.426)),url(../images/4.png);
     background-position: center;
     background-attachment: scroll;
+    font-family: 'Lemon Milk bold';
+    font-weight: 400;
+    letter-spacing:2pt ;
+    font-size: 22pt;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-6{
+    height:180px;
+    background: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.426)),url(../images/5.png);
+    background-position: center;
+    background-attachment: local;
     font-family: 'Lemon Milk bold';
     font-weight: 400;
     letter-spacing:2pt ;
@@ -324,7 +346,7 @@ tr td{
     padding: 20px 10px;
 }
 tr td:first-child{
-    background: rgba(131, 131, 131, 0.123);
+    background: rgba(131, 131, 131, 0.192);
     text-align: center;
     
 }
@@ -334,7 +356,7 @@ tr td:first-child{
     
 }
 tr:first-child{
-   background: rgba(194, 194, 194, 0.356);
+   background: rgba(194, 194, 194, 0.096);
 }
 tr{
     font-family: Source Sans Pro;
@@ -392,8 +414,9 @@ input[type=text], input[type=email] ,select{
     border-radius: 10px;
     background: transparent;
     font-family: Source Sans Pro;
-    font-size: 16pt;
+    font-size: 12pt;
     padding: 10px;
+    color: rgb(71, 71, 71);
    
 }
 input:focus, select:focus,textarea:focus{
@@ -412,7 +435,11 @@ input[type=checkbox],select{
 }
 .motivo{
     display: block;
-    transform: translateX(25%);
+    transform: translateX(20%);
+}
+.motivo > div{
+    display: block;
+    padding: 10px;
 }
 .text-area > label{
     display: block;
@@ -422,6 +449,7 @@ input[type=checkbox]{
     height: 16px;
     margin-right: 10px;
 }
+
 textarea{
     margin-top: 15px;
     font-family: Source Sans Pro;
@@ -457,3 +485,58 @@ textarea{
     padding: 40px;
 }
 
+
+/* Car 1 */
+
+.cont-5{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.car-image{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+.car-info{
+    flex: 1;
+}
+.car-image img{
+    width: 300px;
+    border-radius: 50%;
+    border: 3pt solid rgba(37, 48, 60, 0.863);
+    padding: 15px;
+    transition: all 0.2s ease;
+
+}
+.car-image img:hover{
+    border: 3pt solid salmon;
+}
+.car-image::after{
+    content: '';
+    width: 2px;
+    height: 320px;
+    display: inline-block;
+    background: rgba(37, 48, 60, 0.863);
+    transform: translateY(2%);
+    margin-left: 25px;
+}
+.car-info{
+    transform: translateX(-10%);
+    font-family: Source Sans Pro; 
+    color:  rgba(37, 48, 60, 0.863);
+    line-height: 1.5;
+}
+.car-info > h3{
+    font-family: Lemon Milk;
+    letter-spacing: 1.5pt;
+    padding: 5px 0;
+    font-size: 14pt;
+    color: rgba(44, 58, 73, 0.884)
+}
+.car-info > h4{
+    padding: 5px 0;
+    font-family: Lemon Milk;
+    font-size: 11pt;
+    letter-spacing: 1.3pt;
+}
